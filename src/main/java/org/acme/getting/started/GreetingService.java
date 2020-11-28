@@ -11,7 +11,8 @@ public class GreetingService {
         try {
 		hn = InetAddress.getLocalHost().getHostName();
         } catch(Exception e) {}
-	return "您好， " + name + "\nHostname: " + hn;
+	System.out.println("您好， " + name + "\nHostname: " + hn + "\n");
+	return "您好， " + name + "\nHostname: " + hn + "\n";
     }
 
 }
